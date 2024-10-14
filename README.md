@@ -6,7 +6,7 @@ The purpose of this analysis is to assist the nonprofit foundation Alphabet Soup
 
 
 ## Results
-Data Preprocessing
+### Data Preprocessing
 
 The variable that is the target for the model is "IS_SUCCESSFUL".
 
@@ -23,7 +23,7 @@ ASK_AMT
 
 The variables that should be removed are EIN and NAME.
 
-Compiling, Training, and Evaluating the Model
+### Compiling, Training, and Evaluating the Model
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
