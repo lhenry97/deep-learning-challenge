@@ -6,32 +6,36 @@ The purpose of this analysis is to assist the nonprofit foundation Alphabet Soup
 
 
 ## Results
-    Data Preprocessing
-        The variable that is the target for the model is "IS_SUCCESSFUL".
-        The variables that are the features for the model is:
-                APPLICATION_TYPE
-                AFFILIATION
-                CLASSIFICATION
-                USE_CASE
-                ORGANIZATION
-                STATUS
-                INCOME_AMT
-                SPECIAL_CONSIDERATIONS
-                ASK_AMT
-        The variables that should be removed are EIN and NAME.
+Data Preprocessing
 
-    Compiling, Training, and Evaluating the Model
+The variable that is the target for the model is "IS_SUCCESSFUL".
 
-        How many neurons, layers, and activation functions did you select for your neural network model, and why?
+The variables that are the features for the model is:
+APPLICATION_TYPE
+AFFILIATION
+CLASSIFICATION
+USE_CASE
+ORGANIZATION
+STATUS
+INCOME_AMT
+SPECIAL_CONSIDERATIONS
+ASK_AMT
 
-        A number of attempts were made to obtain an accuracy of higher than 75%. This model was unsuccessful and the highest percentage obtained was 72.52% accuracy.
-        The number of neurons used was 181 and 4 layers were used. The activation function was relu for the input layer, sigmoid for the hidden layers and sigmoid for the output layers. These were selected through trial and error to see if possible to achieve a higher accuracy.
+The variables that should be removed are EIN and NAME.
 
-        Were you able to achieve the target model performance?
+Compiling, Training, and Evaluating the Model
 
-        The target model performance was unable to be achieved.
-        What steps did you take in your attempts to increase model performance?
-        Steps taken to attempt to increase model performance was changing the activation function, increasing the number of neurons and increasing the number of hidden layers.
+How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+A number of attempts were made to obtain an accuracy of higher than 75%. This model was unsuccessful and the highest percentage obtained was 72.52% accuracy. The number of neurons used was 181 and 4 layers were used. The activation function was relu for the input layer, sigmoid for the hidden layers and sigmoid for the output layers. These were selected through trial and error to see if possible to achieve a higher accuracy.
+
+Were you able to achieve the target model performance?
+
+The target model performance was unable to be achieved.
+        
+What steps did you take in your attempts to increase model performance?
+
+Steps taken to attempt to increase model performance was changing the activation function, increasing the number of neurons and increasing the number of hidden layers.
 
 
 ## Summary
