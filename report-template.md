@@ -1,6 +1,5 @@
-# deep-learning-challenge
+## Overview of the Analysis
 
-## Overview
 
 The purpose of this analysis is to assist the nonprofit foundation Alphabet Soup in selecting applicants for funding with best chance of success in their ventures. Machine learning and neural networks is used with the dataset to create a binary classifier that is able to predict whether applicants are going to be successful if funded by Alphabet Soup. The data used for this was the charity_data.csv file which contains data points on individuals identification, application type, affiliation, classification, use case, organisation, status, income classification, speacial considerations for application, funding amount requested and whether it was successful.
 
